@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    
+
+</head>
+
+<body>
+<form  name="Name">
+     <p>Name <input type="text"></p>
+    <p> Email <input type="text"></p>
+    
+    <p><b>Sex</b></p>
+    <label for="male">Male</label>
+             <input type="radio" name="sex" id="male" />
+    <label for="female">Female</label>
+             <input type="radio" name="sex" id="female" />
+    <br/>
+    
+    <p><b>Current status</b></p>
+        <p><input type="checkbox" id="check1"><label for="check1">Student</label><Br>
+        <input type="checkbox" id="check2"><label for="check2">Employed</label><Br>
+        <input type="checkbox" id="check3"><label for="check3">Unemployed</label><Br>
+        </p>
+    
+    <p><b>Month and Year of birth</b></p>
+    <select>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+    </select>
+    <select>
+        <option>1982</option>
+        <option>1983</option>
+        <option selected="selected">1984</option>
+        <option>1985</option>
+        <option>1986</option>
+    </select>
+    
+    
+    <p><b>Skills and Technologies</b></p>
+    <select>
+        <optgroup label="Tech skills">
+                <option value="volvo">HTML</option>
+                <option value="saab">CSS</option>
+                <option value="volvo">JavaScript</option>
+                <option value="saab">GIT</option>
+        </optgroup>
+        <optgroup label="Soft skills">
+                <option value="vw">Time managment</option>
+                <option value="audi">Proactivity</option>
+                <option value="vw">Teamwork</option>
+                <option value="audi">Leadership</option>
+        </optgroup>
+    </select>
+    <br/>
+    
+    <p><b>Photo</b></p>
+    <input type="file" value="Choose file">
+    
+    <br/>
+    <p><b>Comments</b></p>
+    <textarea> </textarea>
+    <br/>
+    <input type="button" value="Save">
+    
+</form>
+
+    
+
+</body>
+
+</html>
