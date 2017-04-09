@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" >
+    <link href='http://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css'>
+    <style> 
+    
+    .menu {
+    width: 900px;
+    height: 30px;
+    background-color: darkviolet;
+    margin-left: 150px;
+    display: inline-block;
+    padding-left: 100px;
+    
+}
+
+.home {
+    width: 80px;
+    height: 35px;
+    float: left;
+    text-align: center;
+}
+
+.news {
+    width: 80px;
+    height: 35px;
+    float: left;
+    text-align: center;
+}
+
+.economics {
+    width: 120px;
+    height: 35px;
+    float: left;
+    text-align: center;
+}
+
+.local {
+    width: 80px;
+    height: 35px;
+    float: left;
+    text-align: center;
+}
+
+.sport {
+    width: 80px;
+    height: 35px;
+    float: left;
+    text-align: center;
+}
+
+.culture {
+    width: 100px;
+    height: 35px;
+    float: left;
+    text-align: center;
+}
+
+.travels {
+    width: 100px;
+    height: 35px;
+    float: left;
+    text-align: center;
+}
+
+div {
+    font-family: Economica;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.home:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.news:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.economics:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.local:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.sport:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.culture:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.travels:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+    </style>
+    </head>
+
+<body>
+    <div class="menu">
+        
+        <div class="home">HOME</div>
+         <div class="news">NEWS</div>
+         <div class="economics">ECONOMICS</div>
+         <div class="local">LOCAL</div>
+         <div class="sport">SPORT</div>
+         <div class="culture">CULTURE</div>
+         <div class="travels">TRAVELS</div>
+    
+    </div>
+</body>
+
+</html>
