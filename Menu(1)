@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" >
+    <link href='http://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css'>
+  <style>
+    .menu {
+    width: 900px;
+    height: 35px;
+    background-color: darkviolet;
+    margin-left: 150px;
+    padding-left: 100px;
+    
+}
+
+.home {
+    width: 80px;
+    height: 35px;
+    text-align: center;
+
+}
+
+.news {
+   width: 80px;
+    height: 35px;
+    text-align: center;
+}
+
+.economics {
+   width: 80px;
+    height: 35px;
+    text-align: center;
+}
+
+.local {
+    width: 80px;
+    height: 35px;
+    text-align: center;
+}
+
+.sport {
+    width: 80px;
+    height: 35px;
+    text-align: center;
+}
+
+.culture {
+    width: 80px;
+    height: 35px;
+    text-align: center;
+}
+
+.travels {
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    
+}
+
+div {
+    font-family: Economica;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.home:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.news:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.economics:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.local:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.sport:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.culture:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.travels:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <ul>
+        <li class="home"><p>HOME</p></li>
+         <li class="news"><p>NEWS</p></li>
+         <li class="economics"><p>ECONOMICS</p></li>
+         <li class="local"><p>LOCAL</p></li>
+         <li class="sport"><p>SPORT</p></li>
+         <li class="culture"><p>CULTURE</p></li>
+         <li class="travels"><p>TRAVELS</p></li>
+        </ul>
+    </div>
+</body>
+
+</html>
