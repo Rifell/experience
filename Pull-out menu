@@ -1,0 +1,260 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" >
+    <link href='http://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css'>
+    <style> 
+    
+      .menu {
+    width: 900px;
+    height: 35px;
+    background-color: darkviolet;
+    margin-left: 150px;
+    padding-left: 100px;
+    position: relative;
+    
+}
+.menu ul li {
+    position: absolute;
+}
+.home {
+    margin: 0px -100px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    line-height: 1px;
+
+}
+
+.news {
+     margin: 0px 0px;
+   width: 80px;
+    height: 35px;
+    text-align: center;
+    line-height: 1px;
+}
+
+.economics {
+     margin: 0px 100px;
+   width: 80px;
+    height: 35px;
+    text-align: center;
+    line-height: 1px;
+}
+
+.local {
+     margin: 0px 200px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    line-height: 1px;
+}
+
+.sport {
+     margin: 0px 300px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    line-height: 1px;
+}
+
+.culture {
+     margin: 0px 400px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    line-height: 1px;
+}
+
+.travels {
+     margin: 0px 500px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    line-height: 1px;
+    
+}
+
+div {
+    font-family: Economica;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.home:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.news:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.economics:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.local:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.sport:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.culture:hover {
+    background-color: azure;
+    color: blueviolet;
+}
+
+.travels:hover {
+    background-color: azure;
+    color: blueviolet;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    
+    display: inline-block;
+}
+
+
+
+.PodMenu {
+    list-style: none;
+   
+}
+.travels:hover .Pod {
+    display: inline-block;
+}
+.Pod ul li {
+    text-align: justify;
+    font-family: Economica;
+    font-weight: bold;
+    position: absolute;
+}
+.Pod {
+    margin-top: 0px;
+    margin-left: -640px;
+    width: 1000px;
+    height: 30px;
+    background-color: crimson;
+    position: relative;
+    display: none;
+}
+
+.City1 {
+  margin: 0px -500px;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 1px;
+        
+}
+
+.City2 {
+    margin: 0px -400px;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 1px;
+}
+
+.City3 {
+    margin: 0px -300px;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 1px;
+}
+
+.City4 {
+     margin: 0px -200px;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 1px;
+}
+
+.City5 {
+     margin: 0px -100px;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 1px;
+}
+
+.City6 {
+     margin: 0px 0px;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 1px;
+}
+
+.City7 {
+     margin: 0px 100px;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 1px;
+}
+
+.City8 {
+     margin: 0px 200px;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 1px;
+}
+
+
+.City9 {
+     margin: 0px 300px;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 1px;
+}
+
+.City10 {
+     margin: 0px 400px;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 1px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <ul>
+        <li class="home"><p>HOME</p></li>
+         <li class="news"><p>NEWS</p></li>
+         <li class="economics"><p>ECONOMICS</p></li>
+         <li class="local"><p>LOCAL</p></li>
+         <li class="sport"><p>SPORT</p></li>
+         <li class="culture"><p>CULTURE</p></li>
+         <li class="travels"><p>TRAVELS</p>
+           <div class="Pod"> 
+               <ul class="PodMenu">
+                <li class="City1"><p>Amsterdam</p></li>
+                <li class="City2"><p>Bahamas</p></li>
+                <li class="City3"><p>Jamaica</p></li>
+                <li class="City4"><p>Las Vegas</p></li>
+                <li class="City5"><p>London</p></li>
+                <li class="City6"><p>Los Angeles</p></li>
+                <li class="City7"><p>Miami</p></li>
+                <li class="City8"><p>Montreal</p></li>
+                <li class="City9"><p>Paris</p></li>
+                <li class="City10"><p>Rome</p></li>
+            
+            </ul>
+               </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
