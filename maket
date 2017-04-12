@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" >
+    <link href='http://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css'>
+    <style>
+      .Parent {
+    border: 3px solid #EE8128;
+    width: 250px;
+    height: 400px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.header {
+    height: 60px;
+    text-align: center;
+    background-color: #EE8128;
+    color: aliceblue;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.header1 {
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.dollar {
+    height: 90px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 17px;
+}
+
+.Numbers {
+    font-size: 60px;
+}
+
+.Symbol {
+    position: absolute;
+    margin: -11px; 0px;
+    line-height: 90px;
+    font-size: 19px;
+}
+
+.list {
+    list-style-image: url(../images/tick.png);
+    color: darkgray;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+li:nth-child(2n-1) {
+    background-color: powderblue;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+li:nth-child(2n) {
+    background-color: lightgoldenrodyellow;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.button {
+    height: 40px;
+    width: 200px;
+    margin-left: 25px;
+    background-color: #EE8128;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 6px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="Parent">
+       <div class="header">BEST VALUE</div>
+        <div class="header1">ICONIC GRAPHICS</div>
+        <div class="dollar"><span class="Symbol"><sup>$</sup></span><span class="Numbers">25</span><sub>Monthly</sub></div>
+        <div class="list">
+            <ul>
+                <li class="lishka">PHP, PERL, ASP, JSP</li>
+                <li class="lishka1">SEMI DEDICATED</li>
+                <li class="lishka">Staging or Production</li>
+                <li class="lishka1">Unlimited e-Mails</li>
+            </ul>
+        </div>
+        <div ><p><input type="button" value="ENROLL TODAY" class="button"></p></div>
+    </div>
+</body>
+
+</html>
