@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" >
+   <style>
+   .backG {
+    height: 250px;
+    width: 900px;
+    background-image: url(../images/bg.jpg);
+    position: relative;
+}
+
+.Header {
+    position: absolute;
+    height: 50px;
+    width: 250px;
+    margin-left: 310px;
+    margin-top: 30px;
+    line-height: 50px;
+}
+
+.what {
+    color:darkorange;
+    font-size: 25px;
+}
+
+.clientSays {
+    color:cornflowerblue;
+    font-size: 25px;
+}
+
+.clients {
+    position: absolute;
+    height: 100px;
+    width: 750px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.women {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    background-image: url(../images/women.jpeg);
+}
+
+.womenSay {
+    position: absolute;
+    height: 80px;
+    width: 260px;
+    margin-left: 100px;
+    background-color: aliceblue;
+}
+
+.men {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    margin-left: 380px;
+    background-image: url(../images/men.jpg);
+}
+
+.menSay {
+    position: absolute;
+    height: 80px;
+    width: 260px;
+    margin-left: 480px;
+    background-color: aliceblue;
+}
+
+.Stacia {
+    padding-left: 5px;
+    color: dodgerblue;
+    position: absolute;
+    list-style-type: disc;
+    font-size: 12px;
+    width: 90px;
+    font-style: italic;
+}
+
+.Chris {
+    padding-left: 5px;
+    color: dodgerblue;
+    position: absolute;
+    list-style-type: disc;
+    font-size: 12px;
+    width: 100px;
+    font-style: italic;
+}
+.Customer1 {
+    color: dodgerblue;
+    position: absolute;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 200px;
+}
+.Customer2 {
+    color: dodgerblue;
+    position: absolute;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 200px;
+}
+
+.textArea {
+    border-top: 1px dotted;
+    font-family:serif;
+    font-size: 14px;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+
+.womenSay::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: -20px; top: 30px;
+    /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-right: 10px solid white; /* Добавляем треугольник */
+   }
+
+.menSay::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: -20px; top: 30px;
+    /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-right: 10px solid white; /* Добавляем треугольник */
+   }
+   </style>
+</head>
+
+<body>
+    <div class="backG">
+        <div class="Header"><span class="what">WHAT</span> <span class="clientSays">CLIENT SAYS</span></div>
+        <div class="clients">
+            <div class="women"></div>
+            <div class="womenSay"><span class="Stacia"><li>Stacia Trollio</li></span>  
+                <div class="Customer1">Customer</div>
+            <div class="textArea"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec ultrices odio. </p></div>
+                <div class="block"></div>
+            </div>
+           
+            
+            
+            <div class="men"></div>
+            <div class="menSay"><span class="Chris"><li>Chris Hemsworth</li></span>
+            <div class="Customer2">Customer</div>
+            <div class="textArea"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec ultrices odio. </p></div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>
