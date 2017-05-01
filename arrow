@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" >
+   <link href='http://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css'>
+    <title>Task1</title>
+    <style>
+    .block {
+    width: 50%;
+    height: 100px;
+/*    border: 2px solid blue;*/
+    margin-left: 20px;
+}
+
+.strelka {
+    width: 94.8%;
+    height: 63px;
+    background-color: #FFCD5C;
+    position: relative;
+    min-width: 500px;
+    background: -webkit-linear-gradient(top, #FFCD5C 0%,#333 50%, #FFCD5C 90%,#fefefe 100%);
+    
+}
+
+.strelka::after {
+    content: ''; 
+    position: absolute; 
+    left: 100%; bottom: 0px; 
+   
+    border: 31px solid transparent; 
+    
+    border-left: 20px solid;
+    border-left-color: linear-gradient(top, #FFCD5C 0%,#333 50%, #FFCD5C 90%,#fefefe 100%);
+    
+   }
+
+.textArea {
+    width: 90%;
+    height: 28px;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 3px
+}
+
+.button {
+    position: relative;
+    width: 14%;
+    min-width: 80px;
+    height: 29px;
+    margin-left: 94%;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.radio {
+    position: absolute;
+    margin-top: 7px;
+}
+.labelCheck {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+    </style>
+</head>
+
+<body>
+    <div class="block">
+        <div class="strelka">
+            <div class="textArea">
+                <input class="textArea">
+                <input type="button" value="Найти" class="button"> 
+                <input class="radio" type="checkbox" value="dsf"> <label class="labelCheck">поиск по описаниям сайтов</label>
+            </div>
+        
+        </div>
+    
+    </div>
+    
+</body>
+
+
+</html>
